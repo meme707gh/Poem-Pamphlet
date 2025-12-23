@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header-styles.css">
+    <link rel="stylesheet" href="css/main-styles.css">
+   <title>Electronic book</title>
+</head>
+<body class="lightmode">
+    <div id="e-book">
+        <div id="header">
+            <div id="nav-bar">
+                <div id="title"><a href="#" id="title-text" aria-label="Refresh page">Simple</a></div>
+                <div id="nav-tiles-section">
+                    <div id="beg-btn" class="nav-tile" role="button" tabindex="0" aria-label="Go to start page"><span class="nav-text">Start</span><span class="underline"></span></div>
+                    <div id="mid-btn" class="nav-tile" role="button" tabindex="0" aria-label="Go to middle page"><span class="nav-text">Middle</span><span class="underline"></span></div>
+                    <div id="end-btn" class="nav-tile" role="button" tabindex="0" aria-label="Go to end page"><span class="nav-text">End</span><span class="underline"></span></div>
+                </div>
+                <div id="theme-btn" role="button" tabindex="0" aria-label="Toggle theme">
+                    <img class="theme-img" id="moon-img" src="img/Moon.png" alt="Switch to darkmode">
+                    <img class="theme-img" id="sun-img" src="img/Sun.png" alt="Switch to lightmode">
+                </div>
+                <div id="nav-access-btn" role="button" tabindex="0" aria-label="Open navigation menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div id="slide-nav-menu" class="">
+            <div id="slide-nav-tiles-section">
+                <div id="slide-beg-btn" class="slide-nav-tile" role="button" tabindex="0" aria-label="Go to start page"><span class="slide-nav-text">Start</span><span class="slide-underline"></span></div>
+                <div id="slide-mid-btn" class="slide-nav-tile" role="button" tabindex="0" aria-label="Go to middle page"><span class="slide-nav-text">Middle</span><span class="slide-underline"></span></div>
+                <div id="slide-end-btn" class="slide-nav-tile" role="button" tabindex="0" aria-label="Go to end page"><span class="slide-nav-text">End</span><span class="slide-underline"></span></div>
+            </div>
+            <div id="slide-theme-btn" role="button" tabindex="0" aria-label="Toggle theme">
+                <img class="theme-img" id="nav-moon-img" src="img/Moon.png" alt="Switch to darkmode">
+                <img class="theme-img" id="nav-sun-img" src="img/Sun.png" alt="Switch to lightmode">
+            </div>
+        </div>
+        </div>
+        <div id="main">
+            <div id="display-section">
+                <div id="display" class="first"></div>
+                <div id="page-btns-section">
+                    <button id="previous-page-btn" class="turn-page-btn" aria-label="Previous page">-</button>
+                    <button id="next-page-btn" class="turn-page-btn" aria-label="Next page">+</button>
+                </div>
+            </div>
+            <div id="page-number">/3</div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/theme_switch.js"></script>
+</body>
+</html>
